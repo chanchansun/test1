@@ -1,0 +1,107 @@
+body{
+color:#777;
+font-family:"Open Sans",sans-serif;
+font-weight:400;
+background-color: #FFFFFF;
+margin:0;
+padding:0;
+}
+h1{
+color:#000;
+text-transform:uppercase;
+font-family:"Poppins",sans-serif;
+font-size:50px;
+font-weight:700;
+text-align:center;
+}
+
+ul{
+margin:0;
+padding:0;
+list-style:none
+}
+a:hover{
+text-decoration:none
+}
+header{
+padding:30px 0;
+overflow:hidden;
+}
+h2{
+    text-align: center;
+}
+section{
+    width:90%;
+    margin:0 auto;
+  
+}
+
+.topItem{
+    width:95%;
+    display:flex;
+    flex-direction: row;
+    margin:0 auto;
+}
+.topItem .cl{
+    width:35%;
+    margin-right: 5%;
+}
+.topItem .cr{
+    width:55%;
+    position: relative;
+}
+
+.img-wrapper{
+    width:90%;
+}
+.img-wrapper img{
+    width:100%;
+    height:390px;
+}
+.btn{
+    /* float:right; */
+    position: absolute;
+    right:3%;
+    bottom:3%;
+    width:10%;
+    text-align: center;
+    background-color: #F5DEB3;
+   padding:10px;
+   border-radius:5px;
+   font-size: 24px;
+}
+.btn a{
+    text-decoration:none;
+    color:#fff;
+}
+
+h1{
+font-size:36px
+}
+h2{
+font-size:30px
+}
+h3{
+font-size:24px
+}
+h4{
+font-size:18px
+}
+h5{
+font-size:16px
+}
+h6{
+font-size:14px
+}
+
+.price{
+    font-size:24px;
+    color:#F5DEB3;
+  
+}
+footer{
+padding:50px 0;
+background-color:#F5DEB3; 
+text-align: center;
+margin-top: 5%;
+}
